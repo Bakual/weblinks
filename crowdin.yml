@@ -1,4 +1,3 @@
-export_languages: ["en-GB"]
 files:
   - source: /src/administrator/components/com_weblinks/language/en-GB
     translation: >-
@@ -22,6 +21,7 @@ files:
     translation_replace:
       en-GB.: 
   - source: /src/plugins/search/weblinks/language/en-GB
+    export_languages: ["de-DE"]
     translation: >-
       /src/plugins/search/weblinks/language/%locale%/%locale%.%original_file_name%
     translation_replace:
@@ -31,3 +31,4 @@ files:
       /src/plugins/system/weblinks/language/%locale%/%locale%.%original_file_name%
     translation_replace:
       en-GB.: 
+    export_languages: ["de-DE"]
