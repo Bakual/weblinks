@@ -1,3 +1,4 @@
+export_languages: ["en-GB"]
 files:
   - source: /src/administrator/components/com_weblinks/language/en-GB
     translation: >-
